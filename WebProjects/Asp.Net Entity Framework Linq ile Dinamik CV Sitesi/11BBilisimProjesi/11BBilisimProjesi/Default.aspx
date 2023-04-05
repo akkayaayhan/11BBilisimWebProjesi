@@ -32,7 +32,7 @@
 		<div class="side_top">
 			<img src="web/images/about.jpg" alt="news image" class="img-fluid navimg">
 			<h1 class="top_hd mt-2"><a href="index.html">Conjoint</a></h1>
-			<p class="top_hdp mt-2">Fermentum lobortis non tristique ante proin sociis</p>
+			<p class="top_hdp mt-2">Fermentu lobortis non tristique ante proin sociis</p>
         </div>
 		<!-- header -->
         <header>
