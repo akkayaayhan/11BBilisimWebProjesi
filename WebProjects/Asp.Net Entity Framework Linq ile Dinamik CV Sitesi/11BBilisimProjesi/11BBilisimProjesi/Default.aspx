@@ -30,8 +30,29 @@
     <div class="sidenav text-center">
 		<div class="side_top">
 			<img src="web/images/about.jpg" alt="news image" class="img-fluid navimg">
-			<h1 class="top_hd mt-2"><a href="index.html">Conjoint</a></h1>
-			<p class="top_hdp mt-2">Fermentu lobortis non tristique ante proin sociis</p>
+			<h1 class="top_hd mt-2">
+				<a href="index.html">
+					<asp:Repeater ID="Repeater1" runat="server">
+						<ItemTemplate>
+							<h2>
+								<%# Eval("BILGILER") %>
+								
+							</h2>
+						</ItemTemplate>
+					</asp:Repeater>
+
+				</a></h1>
+			<p class="top_hdp mt-2">
+				<asp:Repeater ID="Repeater2" runat="server">
+					<ItemTemplate>
+						<h4>
+							<%# Eval("EGITIM") %>
+
+						</h4>
+					</ItemTemplate>
+
+				</asp:Repeater>
+			</p>
         </div>
 		<!-- header -->
         <header>
@@ -55,7 +76,7 @@
         <div class="banner-text-w3ls" id="home">
 			<div class="container">
                 <div class="mx-auto text-center">
-                    <h3>11B kARAKÖPRÜ gAP BİLİŞİM</h3>
+                    <h3>11B KARAKÖPRÜ GAP BİLİŞİM</h3>
 					<p class="banp mx-auto mt-3">Nulla pellentesque mi non laoreet eleifend. Integer porttitor mollisar lorem, at molestie arcu  </p>
 					<a class="btn btn-primary mt-lg-5 mt-3 agile-link-bnr" href="#about" role="button">dAHA FAZLA</a>
                 </div>
@@ -64,7 +85,13 @@
 		<!-- about -->
 <section class="slide-wrapper" id="about">
 	<h2 class="w3_head mb-4">Hakkımızda </h2>
-	<h4 class="main_hd"> Fermentum lobortis non tristique ante proin sociis <br>accumsan lobortis auctor etiam.</h4>
+	<asp:Repeater ID="Repeater3" runat="server">
+		<ItemTemplate>
+			<h4 class="main_hd"> 
+				<%# Eval("ISDENEYIMLERI") %><b/>
+			</h4>
+		</ItemTemplate>
+	</asp:Repeater>
 	<p class="iner mt-md-5"> Nunc fermentum adipiscing tempor cursus nascetur adipiscing adipiscing. Primis aliquam mus lacinia lobortis phasellus suscipit. Fermentum lobortis non tristique ante proin sociis accumsan lobortis. Auctor etiam porttitor phasellus tempus cubilia ultrices tempor sagittis. Nisl fermentum consequat integer interdum integer purus sapien. Nibh eleifend nulla nascetur pharetra commodo mi augue interdum tellus. Ornare cursus augue feugiat sodales velit lorem. Semper elementum ullamcorper lacinia natoque aenean scelerisque.</p>
 </section>
 <!-- //about -->
