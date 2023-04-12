@@ -57,3 +57,7 @@ D:\2023\WEB_DEVELOPMENT\WebProjects\Asp.Net Entity Framework Linq ile Dinamik CV
 D:\2023\WEB_DEVELOPMENT\WebProjects\Asp.Net Entity Framework Linq ile Dinamik CV Sitesi\11BBilisimProjesi\11BBilisimProjesi\obj\Debug\11BBilisimProjesi.csproj.CopyComplete
 D:\2023\WEB_DEVELOPMENT\WebProjects\Asp.Net Entity Framework Linq ile Dinamik CV Sitesi\11BBilisimProjesi\11BBilisimProjesi\obj\Debug\11BBilisimProjesi.dll
 D:\2023\WEB_DEVELOPMENT\WebProjects\Asp.Net Entity Framework Linq ile Dinamik CV Sitesi\11BBilisimProjesi\11BBilisimProjesi\obj\Debug\11BBilisimProjesi.pdb
+D:\2023\WEB_DEVELOPMENT\WebProjects\Asp.Net Entity Framework Linq ile Dinamik CV Sitesi\11BBilisimProjesi\11BBilisimProjesi\bin\EntityFramework.dll
+D:\2023\WEB_DEVELOPMENT\WebProjects\Asp.Net Entity Framework Linq ile Dinamik CV Sitesi\11BBilisimProjesi\11BBilisimProjesi\bin\EntityFramework.SqlServer.dll
+D:\2023\WEB_DEVELOPMENT\WebProjects\Asp.Net Entity Framework Linq ile Dinamik CV Sitesi\11BBilisimProjesi\11BBilisimProjesi\bin\EntityFramework.xml
+D:\2023\WEB_DEVELOPMENT\WebProjects\Asp.Net Entity Framework Linq ile Dinamik CV Sitesi\11BBilisimProjesi\11BBilisimProjesi\bin\EntityFramework.SqlServer.xml

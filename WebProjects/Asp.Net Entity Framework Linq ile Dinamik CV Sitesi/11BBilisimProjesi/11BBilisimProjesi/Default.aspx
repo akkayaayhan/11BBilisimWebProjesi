@@ -3,11 +3,10 @@
 <!DOCTYPE html>
 <html lang="zxx">
 <head>
-    <title>Conjoint a Corporate Category Bootstrap Responsive website Template | Home :: w3layouts</title>
+    <title>11B Bilişim Proje Çalışması</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="utf-8" />
-    <meta name="keywords" content="Conjoint Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
-	SmartPhone Compatible web template, free WebDesigns for Nokia, Samsung, LG, Sony Ericsson, Motorola web design" />
+    <meta name="keywords" content="bilisim,web,yazılım,urfa" />
     <script>
         addEventListener("load", function () {
             setTimeout(hideURLbar, 0);
